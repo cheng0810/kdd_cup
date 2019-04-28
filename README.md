@@ -35,6 +35,17 @@ plans:
             <th>price11</th>
             <th>eta11</th>
         </tr>
+         <tr>
+            <th>1</th>
+            <th>21328</th>
+            <th>400</th>
+            <th>6046</th>
+            <th>0</th>
+            <th>0</th>
+            <th>...</th>
+            <th>0</th>
+            <th>0</th>
+        </tr>
  </table>
  如果推薦有mode1 則mode1 填入1  有推薦mode3 則mode3 填入 1 其餘的mode填0  
  接者把有推薦的值分別輸入後面  
