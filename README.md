@@ -20,9 +20,6 @@ plans:
 [{"distance": 22691, "price": 700, "eta": 4888, "transport_mode": 7}, {"distance": 21483, "price": "", "eta": 2303, "transport_mode": 3}, {"distance": 21483, "price": 5500, "eta": 2543, "transport_mode": 4}, {"distance": 21328, "price": 400, "eta": 6046, "transport_mode": 1}]  
 
 切成44個col 因為總共有11種transport_mode  
-| mode1 | dis1 | price1 | eta1 | mode2 | dis2 | ... | price11 | eta11 |  
-|:---:|:---:|:----:|:--:|:---:|:--:|:-:|:-----:|:---:|  
-|    1 |21328 |   400 |6046 |    0 |   0 |... |      0 |    0 |  
  <table>
         <tr>
             <th>mode1</th>
