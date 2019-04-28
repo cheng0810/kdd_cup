@@ -1,4 +1,4 @@
-# kdd_cup
+# kdd_cup 2019
 
 # Data description
 l  Query record. A query record represents one route search from a user on Baidu Maps. Each query record consists of a session ID, a profile ID, a timestamp, coordinates of the original point, coordinates of the destination point. For example, [387056, 234590, "2018-11-01 15:15:36", (116.30,40.05), (116.35,39.99)] means a user makes a query on a trip from (116.30,40.05) to (116.35,39.99) in the afternoon of Nov. 1st, 2018. All coordinates are WGS84.
