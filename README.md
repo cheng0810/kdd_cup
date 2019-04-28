@@ -10,17 +10,17 @@ l  Click record. A click record indicates the user feedback of different recomme
 l  User attributes. User profile attributes reflect individual preference on transport modes. The user of each session is associated with a set of user attributes via a profile ID. Each profile record consists of a profile ID, a set of one hot encoded user profile dimensions. Note that for the privacy issue, we don’t directly provide physically individual user IDs. Instead, each user is represented as a set of user attributes and then users with same attributes are merged with the same user profile ID. For example, with gender and age attribute considered, two males of age 35 are identified as the same user in the dataset.
 
 # preprocessing
-主要是把['o','d','req_time']給區分好:
-(116.30,40.05) ---> 116.30 | 40.05
-req_time只取小時 :"2018-11-01 15:15:36" ---> 15
+主要是把['o','d','req_time']給區分好:＜/br＞
+(116.30,40.05) ---> 116.30 | 40.05＜/br＞
+req_time只取小時 :"2018-11-01 15:15:36" ---> 15＜/br＞
 
 # preprocessing2
-針對plans去做處理 
-plans:
+針對plans去做處理 ＜/br＞
+plans:＜/br＞
 [{"distance": 22691, "price": 700, "eta": 4888, "transport_mode": 7}, {"distance": 21483, "price": "", "eta": 2303, "transport_mode": 3}, {"distance": 21483, "price": 5500, "eta": 2543, "transport_mode": 4}, {"distance": 21328, "price": 400, "eta": 6046, "transport_mode": 1}]
 
-切成44個col 因為總共有11種transport_mode
-mode1   dis1     price1     eta1   mode2 dis2 ... price11 eta11
-    1  21328        400     6046       0    0 ...       0     0
- 如果推薦有mode1 則mode1 填入1  有推薦mode3 則mode3 填入 1 其餘的mode填0
- 接者把有推薦的值分別輸入後面
+切成44個col 因為總共有11種transport_mode＜/br＞
+mode1   dis1     price1     eta1   mode2 dis2 ... price11 eta11＜/br＞
+    1  21328        400     6046       0    0 ...       0     0＜/br＞
+ 如果推薦有mode1 則mode1 填入1  有推薦mode3 則mode3 填入 1 其餘的mode填0＜/br＞
+ 接者把有推薦的值分別輸入後面＜/br＞
