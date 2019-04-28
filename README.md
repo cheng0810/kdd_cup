@@ -1,0 +1,7 @@
+# kdd_cup
+
+Introduction 
+Background
+Context-aware multi-modal transportation recommendation has a goal of recommending a travel plan which considers various unimodal transportation modes, such as walking, cycling, driving, public transit, and how to connect among these modes under various contexts. The successful development of multi-modal transportation recommendations can have a number of advantages, including but not limited to reducing transport times, balancing traffic flows, reducing traffic congestion, and ultimately, promoting the development of intelligent transportation systems.
+
+Despite the popularity and frequent usage of transportation recommendation on navigation Apps (e.g., Baidu Maps and Google Maps), existing transportation recommendation solutions only consider routes in one transportation mode. Intuitively, in the context-aware multi-modal transportation recommendation problem, the transport mode preferences vary over different users and spatiotemporal contexts. For example, metros are more cost-effective than taxis for most urban commuters; economically disadvantaged people may prefer cycling and walking to others for local travel, if the transport options are inadequate. Imagine another scenario that the distance of the OD pair is relatively large, and the trip purpose is in no emergency. In this case, a cost-effective transportation recommendation that including multiple transport modes, e.g., taxi-bus, maybe more attractive.
