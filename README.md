@@ -23,5 +23,18 @@ plans:
 | mode1 | dis1 | price1 | eta1 | mode2 | dis2 | ... | price11 | eta11 |  
 |:---:|:---:|:----:|:--:|:---:|:--:|:-:|:-----:|:---:|  
 |    1 |21328 |   400 |6046 |    0 |   0 |... |      0 |    0 |  
+ <table>
+        <tr>
+            <th>mode1</th>
+            <th> dis1</th>
+            <th>price1</th>
+            <th>eta1</th>
+            <th>mode2</th>
+            <th>dis2 </th>
+            <th>...</th>
+            <th>price11</th>
+            <th>eta11</th>
+        </tr>
+ </table>
  如果推薦有mode1 則mode1 填入1  有推薦mode3 則mode3 填入 1 其餘的mode填0  
  接者把有推薦的值分別輸入後面  
