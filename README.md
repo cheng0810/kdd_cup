@@ -55,3 +55,6 @@ plans:
  
  # randomforest  
  use random forest or Xgboost to train model
+ 
+ # predict_test
+ use the model to predict the data 
