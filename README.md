@@ -53,7 +53,7 @@ plans:
  如果推薦有mode1 則mode1 填入1  有推薦mode3 則mode3 填入 1 其餘的mode填0  
  接者把有推薦的值分別輸入正確index  
  
- # randomforest  
+ # model  
  use random forest or Xgboost to train model
  
  # predict_test
